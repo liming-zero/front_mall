@@ -76,15 +76,15 @@
               params: this.$http.adornParams()
             }).then(({data}) => {
               if (data && data.code === 0) {
-                this.dataForm.assigneeId = data.purchase.assigneeId
-                this.dataForm.assigneeName = data.purchase.assigneeName
-                this.dataForm.phone = data.purchase.phone
-                this.dataForm.priority = data.purchase.priority
-                this.dataForm.status = data.purchase.status
-                this.dataForm.wareId = data.purchase.wareId
-                this.dataForm.amount = data.purchase.amount
-                this.dataForm.createTime = data.purchase.createTime
-                this.dataForm.updateTime = data.purchase.updateTime
+                //this.dataForm.assigneeId = data.purchase.assigneeId
+                //this.dataForm.assigneeName = data.purchase.assigneeName
+                //this.dataForm.phone = data.purchase.phone
+                //this.dataForm.priority = data.purchase.priority
+                //this.dataForm.status = data.purchase.status
+                //this.dataForm.wareId = data.purchase.wareId
+                //this.dataForm.amount = data.purchase.amount
+                //this.dataForm.createTime = data.purchase.createTime
+                //this.dataForm.updateTime = data.purchase.updateTime
               }
             })
           }
